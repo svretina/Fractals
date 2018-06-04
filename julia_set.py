@@ -18,7 +18,7 @@ yheight = ymax - ymin
 
 
 alpha = np.linspace(0,2*np.pi,300)
-for k in range(160,300):
+for k in range(0,300):
     print(k)
     c = complex(0.7885*np.cos(alpha[k]),0.7885*np.sin(alpha[k]))
 
